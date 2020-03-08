@@ -7,4 +7,5 @@ def input_data():
         line=f.readline().split()
         data[int(line[0])]=int(line[1])
     f.close()
+    return data
 input_data()
