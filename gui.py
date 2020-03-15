@@ -4,7 +4,7 @@ def gui(maxNum,maxDay,minNum,minDay,ave,mid,data):
     root=tk.Tk()
     lis1=[' '+str(i)+'      '+str(data[i]) for i in range(1,30)]
     lis2=["minNum:"+str(minNum),"minDay:"+str(minDay),"maxNum:"+str(maxNum)\
-        ,"maxDay"+str(maxDay),"average:"+str(ave),"median:"+str(mid)]
+        ,"maxDay:"+str(maxDay),"average:"+str(ave),"median:"+str(mid)]
     list1=tk.Listbox(root)
     list2=tk.Listbox(root)
     for i in range(len(lis1)):

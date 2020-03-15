@@ -14,7 +14,7 @@ def cal(data):
             minDay=i
             minNum=data[i]
     tmp=data[1:30]
-    tmp=tmp.sort
+    tmp=tmp.sort()
     ave=summ/29
     ave=round(ave,1)
     mid=data[14]
